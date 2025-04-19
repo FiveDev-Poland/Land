@@ -1,0 +1,109 @@
+<!doctypehtml><html lang=en><meta charset=UTF-8><meta content="width=device-width,initial-scale=1"name=viewport><title>FiveDev - Portfolio</title><link href=data/dp.jpeg rel=icon type=image/jpeg><script src=https://cdn.tailwindcss.com></script><script src=https://unpkg.com/lucide@latest></script><script>tailwind.config={darkMode:"class",theme:{extend:{colors:{dark:"#0a0a0a",light:"#fcfbf7"}}}}</script><style>@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=EB+Garamond:ital@0;1&family=Space+Mono&display=swap);.text-shadow-glow-subtle{text-shadow:0 0 12px rgba(255,255,255,.419)}.font-garamond{font-family:'EB Garamond',serif;font-style:italic}.nav-container{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem}@media (min-width:640px){.nav-container{gap:2rem}}.nav-link{display:flex;align-items:center;gap:.5rem;transition:color .3s ease}.nav-link:hover{color:#000}.dark .nav-link:hover{color:#fff}.tech-icon{width:64px;height:64px;transition:filter .3s ease,transform .3s ease}.tech-icon{filter:invert(.4)}.tech-icon:hover{filter:invert(0);transform:scale(1.5)}.dark .tech-icon:hover{filter:invert(1);transform:scale(1.5)}.dark .tech-icon:hover{filter:invert(1)}.squircle{width:256px;height:260px;border-radius:100%;overflow:hidden}.section{opacity:0;transform:translateY(20px);transition:opacity .5s ease,transform .5s ease}.section.visible{opacity:1;transform:translateY(0)}@media (min-width:740px){.nav-container{display:grid;grid-template-columns:repeat(6,auto);justify-content:center;gap:2rem}.squircle{width:260px;height:260px}}.font-space-mono{font-family:'Space Mono',monospace}.footer-text{transition:letter-spacing .8s ease}.footer-text:hover{letter-spacing:4px}.button{font-size:17px;font-weight:600;padding:8px 16px;border-radius:980px;transition:all .3s ease}.button-filled{background-color:#ff8c00;color:#000}.button-filled:hover{transform:scale(1.15)}.button-outlined{background-color:#007aff;border:2px solid #007aff;color:#fff}.button-outlined:hover{transform:scale(1.15)}.chevron-down{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);animation:bounce 2s infinite}@keyframes bounce{0%,100%,20%,50%,80%{transform:translateX(-50%) translateY(0)}40%{transform:translateX(-50%) translateY(-20px)}60%{transform:translateX(-50%) translateY(-10px)}}.about-text{font-size:15px}@media (min-width:768px){.about-text{font-size:19px}}.rdk-hover{text-decoration:underline;cursor:pointer;position:relative}.rdk-hover::after{content:"What is RDK-B?";position:absolute;bottom:100%;left:50%;transform:translateX(-50%);background-color:#147eff;color:#282232;padding:4px 8px;border-radius:7px;font-size:16px;opacity:0;transition:opacity .3s;pointer-events:none;white-space:nowrap}.rdk-hover:hover::after{opacity:1}.project-thumbnail{position:relative;overflow:hidden;border-radius:.5rem;transition:transform .3s ease;cursor:pointer;aspect-ratio:2/1}.project-thumbnail:hover{transform:scale(1.05)}.project-thumbnail:hover .redirect-icon{opacity:1}.redirect-icon{position:absolute;top:0;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .3s ease;background-color:rgba(0,0,0,.5)}.redirect-icon svg{color:#fff;width:2rem;height:2rem}.read-more{font-family:'Space Mono',monospace;text-transform:uppercase;text-decoration:underline;display:inline-flex;align-items:center;gap:.5rem;cursor:pointer}@media (max-width:640px){.projects-container{padding-left:2rem;padding-right:2rem}.project-tile{margin-bottom:1rem;margin-left:1rem;margin-right:1rem}}.repo-actions{display:flex;justify-content:flex-start;gap:1rem;margin-top:.5rem}.repo-action{display:flex;align-items:center;gap:.25rem;font-size:.875rem;color:#718096;transition:color .3s ease}.repo-action:hover{color:#2d3748}.dark .repo-action:hover{color:#e2e8f0}</style><body class="flex flex-col bg-light dark:bg-dark dark:text-white duration-300 font-['Inter'] min-h-screen text-dark transition-colors"><div class="absolute right-8 top-8 z-10"><button class="flex items-center justify-center bg-dark dark:bg-light dark:text-dark h-10 p-2 rounded-lg text-light w-10"id=themeToggle><svg class="h-6 w-6"fill=none stroke=currentColor viewBox="0 0 24 24"xmlns=http://www.w3.org/2000/svg><path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"stroke-linecap=round stroke-linejoin=round stroke-width=2 /></svg></button></div><main class="flex flex-col flex-grow"><section class="flex items-center justify-center min-h-screen"><div class="text-center max-w-4xl mx-auto px-4"><h1 class="font-black leading-none lg:text-7xl mb-2 md:text-6xl text-4xl text-shadow-glow-subtle tracking-tighter">FiveDev <span class="font-normal font-garamond">DEVELOPMENT</span></h1><p class="md:text-2xl text-xl font-semibold mb-8"><span class="dark:text-[#C9C9C9] text-gray-600">Full stack Developers & </span><span class="bg-clip-text bg-gradient-to-r from-[#9C83FF] text-transparent to-[#FF9051]">Graphic Designers</span><div class="flex mb-12 justify-center space-x-4"><a class="flex items-center button button-filled space-x-2"href=https://github.com/FiveDev-Poland><span>GitHub</span> <i class="h-5 w-5"data-lucide=github></i></a></div></div><div class=chevron-down><i class="h-8 w-8"data-lucide=chevron-down></i></div></section><section class="section bg-gray-100 dark:bg-gray-900 py-20"id=about><div class="mx-auto container px-4"><h2 class="text-center font-bold text-3xl font-garamond mb-8">About Founder</h2><div class="flex flex-col items-center justify-center md:flex-row md:items-start md:space-x-12 md:space-y-0 space-y-8"><div class="bg-gray-300 dark:bg-gray-700 flex-shrink-0 squircle"><img alt=FiveDev class="w-full h-full object-cover"src=data/dp.jpeg></div><div class="text-center max-w-2xl md:text-left"><p class="about-text font-space-mono">Hi! 👋 I'm a passionate developer specializing in FiveM development, with experience in both frontend and backend. I enjoy building immersive and functional experiences for roleplay servers and am always looking to improve my skills. Lately, I’ve also started diving into map design and custom mapping, expanding my creative toolkit even further. Whether it’s scripting, UI/UX, or world-building, I love bringing ideas to life in the FiveM ecosystem.</div></div></div></section><section class="section py-16"id=skills><div class="mx-auto container px-8 sm:px-16"><h2 class="text-center font-bold text-3xl font-space-mono mb-16">What I fiddle with....</h2><div class="grid gap-12 grid-cols-3 lg:grid-cols-6 place-items-center sm:grid-cols-4"><img alt=C class=tech-icon src=https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/c.svg> <img alt=C++ class=tech-icon src=https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/cplusplus.svg> <img alt="GNU Bash"class=tech-icon src=https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/gnubash.svg> <img alt=Linux class=tech-icon src=https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linux.svg> <img alt=CMake class=tech-icon src=https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/cmake.svg> <img alt=Python class=tech-icon src=https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg></div></div></section><section class="section py-16"id=links><div class="mx-auto container px-4"><h2 class="text-center font-bold text-3xl font-space-mono mb-16">Connect with me</h2><nav class=nav-container><a class="font-bold dark:text-gray-400 md:text-2xl nav-link text-gray-600 text-xl"href=https://discord.gg/yCKAZ6QwJA><i class="h-6 w-6"data-lucide=Discord></i> Discord</a></nav></div></section><section class="section bg-gray-100 dark:bg-gray-900 py-20"id=projects><div class="mx-auto container px-4 max-w-6xl projects-container"><h2 class="text-center font-bold text-3xl font-space-mono mb-12">Projects</h2><div class="grid gap-8 grid-cols-1 lg:grid-cols-3 sm:grid-cols-2"></div></div></section></main><footer class="w-full border-gray-300 border-t dark:border-gray-700 py-4"><p class="text-center font-space-mono cursor-pointer footer-text text-sm uppercase"onclick=rickRoll()>Free Fivem Hosting (30days)</footer><script>tailwind.config={darkMode:"class",theme:{extend:{colors:{dark:"#0a0a0a",light:"#fcfbf7"}}}}</script><body class="flex flex-col bg-light dark:bg-dark dark:text-white duration-300 font-['Inter'] min-h-screen text-dark transition-colors"><script>lucide.createIcons();
+        function revealSections() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (sectionTop < windowHeight * 0.75) {
+                    section.classList.add('visible');
+                }
+            });
+        }
+        window.addEventListener('scroll', revealSections);
+        window.addEventListener('load', revealSections);
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+        function setTheme(isDark) {
+            if (isDark) {
+                html.classList.add('dark');
+            } else {
+                html.classList.remove('dark');
+            }
+            updateIcon(isDark);
+            localStorage.setItem('darkMode', isDark);
+        }
+        function updateIcon(isDark) {
+            themeToggle.innerHTML = isDark
+                ? '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" /></svg>'
+                : '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>';
+        }
+        function getSystemPreference() {
+            return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        }
+        function setInitialTheme() {
+            const savedTheme = localStorage.getItem('darkMode');
+            if (savedTheme !== null) {
+                setTheme(JSON.parse(savedTheme));
+            } else {
+                setTheme(getSystemPreference());
+            }
+        }
+        themeToggle.addEventListener('click', () => {
+            const isDark = !html.classList.contains('dark');
+            setTheme(isDark);
+        });
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (localStorage.getItem('darkMode') === null) {
+                setTheme(e.matches);
+            }
+        });
+        setInitialTheme();
+        function rickRoll() {
+            window.open("https://www.youtube.com/watch?v=xvFZjo5PgG0", "_blank");
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            const rdkElements = document.querySelectorAll('.rdk-hover');
+            rdkElements.forEach(element => {
+                element.addEventListener('click', function() {
+                    if (this.textContent === 'RDK-B') {
+                        window.open('https://wiki.rdkcentral.com/display/RDK/RDK-Broadband', '_blank');
+                    } else if (this.textContent === 'RDK') {
+                        window.open('https://en.wikipedia.org/wiki/Reference_Design_Kit', '_blank');
+                    }
+                });
+            });
+        });
+        const projects = [
+            {
+                title: "",
+                description: "",
+                url: "",
+                image: ""
+            },
+        ];
+        function createProjectTiles() {
+            const projectsContainer = document.querySelector('#projects .grid');
+            projects.forEach(project => {
+                const tile = document.createElement('div');
+                tile.className = 'project-tile';
+                tile.innerHTML = `
+                    <div class="project-thumbnail mb-4">
+                        <img src="${project.image}" alt="${project.title}" class="w-full h-full object-cover">
+                        <div class="redirect-icon">
+                            <i data-lucide="external-link"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">${project.title}</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">${project.description}</p>
+                    <a href="${project.url}" target="_blank" class="read-more">
+                        find more   
+                        <i data-lucide="github"></i>
+                    </a>
+                    <div class="repo-actions">
+                        <a href="${project.url}/what are you looking for?" target="_blank" class="repo-action">
+                            <i data-lucide="star"></i>
+                            Star
+                        </a>
+                        <a href="${project.url}/fork" target="_blank" class="repo-action">
+                            <i data-lucide="git-fork"></i>
+                            Fork
+                        </a>
+                    </div>
+                `;
+                const thumbnail = tile.querySelector('.project-thumbnail');
+                thumbnail.addEventListener('click', () => window.open(project.url, '_blank'));
+                projectsContainer.appendChild(tile);
+            });
+            lucide.createIcons();
+        }
+        createProjectTiles();</script>
